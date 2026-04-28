@@ -154,7 +154,7 @@ Maintained by **[@nodirsafarov](https://github.com/nodirsafarov)** —
 Junior Penetration Tester from Tashkent, Uzbekistan.
 
 [ ![](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nodir-safarov-a717703a1)
-[ ![](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/nodir_1000000000)
+[ ![](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/cyber_nodir)
 [ ![](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nodirsafarov32@gmail.com)
 
 </div>
