@@ -1,12 +1,11 @@
 <div align="center">
 
-#  Cybersecurity Notes — for Newcomers
+#  Cybersecurity Notes
 
-**Hand-picked offensive security notes written for people just entering the field.**
+**My personal knowledge base for offensive security — Web Pentesting & Red Team.**
 
 <p>
-  <img src="https://img.shields.io/badge/For-Newcomers-c12127?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Offensive%20Security-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Offensive%20Security-c12127?style=flat-square" />
   <img src="https://img.shields.io/badge/OWASP-Top%2010-000000?style=flat-square&logo=owasp&logoColor=white" />
   <img src="https://img.shields.io/badge/Active%20Directory-Red%20Team-d32f2f?style=flat-square" />
   <img src="https://img.shields.io/badge/Status-Living%20Document-success?style=flat-square" />
@@ -17,35 +16,19 @@
 
 ---
 
-##  Who this is for
+##  About
 
-If you are **just entering cybersecurity** and you keep getting buried under giant
-references like HackTricks, PayloadsAllTheThings, or PortSwigger — this repo is for you.
+A second-brain for everything I learn during HackTheBox machines, TryHackMe rooms,
+PortSwigger Web Security Academy labs, and CTFs — focused on **Web Application
+Penetration Testing** and **Active Directory / Red Team** tradecraft.
 
 Each note here is:
 
--  **Distilled** — only the stuff you actually need for your first 10 boxes / labs
 -  **Practical** — every command shown was run in a real lab, not copy-pasted from a wiki
--  **Newcomer-friendly** — minimal jargon, plenty of "why" not just "how"
--  **Mapped to free platforms** — HTB Academy, TryHackMe, PortSwigger Web Academy, free CTFs
+-  **Concise** — kept to the essentials I actually reach for during engagements
+-  **Tested** — only what I have validated in my own environment makes it in
 
-I write these as **I learn them**. If a topic is here, I have actually tested it.
-If something is missing, I haven't gotten there yet — [open an issue](https://github.com/nodirsafarov/cybersecurity-notes/issues)
-and tell me what you'd like to see next.
-
----
-
-##  How to use this repo
-
-If you are brand new to offensive security, follow this order — it matches the path
-that worked for me:
-
-1. **Methodology** → [`methodology/`](./methodology/) — learn the frameworks before the tools
-2. **Cheatsheets** → [`cheatsheets/`](./cheatsheets/) — print these out, you'll need them
-3. **Web Security** → [`web-security/`](./web-security/) — start with OWASP Top 10
-4. **Active Directory** → [`active-directory/`](./active-directory/) — once web feels comfortable
-5. **Tools** → [`tools/`](./tools/) — deepen knowledge of the toolkit you already use
-6. **Writeups** → [`writeups/`](./writeups/) — see the methodology applied to real boxes
+This is my own working reference — if it's here, I have actually used it.
 
 ---
 
@@ -118,16 +101,15 @@ that worked for me:
 
 ---
 
-##  Want to contribute?
+##  Contributions
 
-This repo is **for newcomers, by a newcomer** — so contributions are extra welcome:
+If you spot something wrong, outdated, or unclear:
 
 -  **Found a typo or unclear sentence?** → open a PR
--  **Have a clearer way to explain a concept?** → open a PR
--  **Stuck on a topic?** → open an issue, I'll write a note for it
+-  **Have a sharper way to explain a concept?** → open a PR
 -  **Want to add your own writeup?** → open a PR with the file in `writeups/`
 
-No PR is too small. Even fixing a single command improves the resource for the next learner.
+PRs of any size welcome.
 
 ---
 
