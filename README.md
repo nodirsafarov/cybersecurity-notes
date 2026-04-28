@@ -48,6 +48,9 @@ This is my own working reference — if it's here, I have actually used it.
 
 ##  Featured Notes
 
+###  Methodology
+- [**PTES Web Pentest Cheatsheet**](./methodology/ptes-web-cheatsheet.md) ✅ — task-oriented playbook (52 tasks, ~140 tools, ~95 websites)
+
 ###  Web Security
 - [SQL Injection — Manual Exploitation Cheatsheet](./web-security/sql-injection.md)
 - [XSS — Reflected, Stored, DOM-based](./web-security/xss.md)
