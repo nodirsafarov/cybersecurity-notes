@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+.idea/
+.vscode/
+*.code-workspace
+
+.private/
+*.private.md
+
+*.log
+*.tmp
+*.bak
+.cache/
