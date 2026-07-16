@@ -42,35 +42,24 @@ This is my own working reference — if it's here, I have actually used it.
 | [`methodology/`](./methodology/) | OWASP Testing Guide, PTES, Cyber Kill Chain, MITRE ATT&CK mapping |
 | [`writeups/`](./writeups/) | HTB / TryHackMe / CTF writeups (after machines retire) |
 | [`cheatsheets/`](./cheatsheets/) | Quick-reference one-pagers for engagements |
-| [`resources/`](./resources/) | Curated links — blogs, courses, books, CVE references |
 
 ---
 
 ##  Featured Notes
 
-###  Methodology
-- [**PTES Web Pentest Cheatsheet**](./methodology/ptes-web-cheatsheet.md) ✅ — task-oriented playbook (52 tasks, ~140 tools, ~95 websites)
+Published and ready to read:
 
-###  Web Security
-- [SQL Injection — Manual Exploitation Cheatsheet](./web-security/sql-injection.md)
-- [XSS — Reflected, Stored, DOM-based](./web-security/xss.md)
-- [SSRF — Bypasses & Internal Service Discovery](./web-security/ssrf.md)
-- [IDOR — Finding & Exploiting Access Control Flaws](./web-security/idor.md)
-- [File Upload Bypass Techniques](./web-security/file-upload.md)
+- [**PTES Web Pentest Cheatsheet**](./methodology/ptes-web-cheatsheet.md) — task-oriented playbook structured around the seven PTES phases (52 tasks, ~140 tools, ~95 websites)
+- [**Reverse Shells One-Liner Reference**](./cheatsheets/reverse-shells.md) — copy-paste shells for every common interpreter/listener combo
 
-###  Active Directory
-- [AD Enumeration Workflow](./active-directory/enumeration.md)
-- [Kerberoasting & AS-REP Roasting](./active-directory/kerberoasting.md)
-- [BloodHound — Attack Path Analysis](./active-directory/bloodhound.md)
-- [Lateral Movement & Pivoting](./active-directory/lateral-movement.md)
+Everything else is tracked, in progress, and linked from each folder's own index:
 
-###  Cheatsheets
-- [Reverse Shells One-Liner Reference](./cheatsheets/reverse-shells.md)
-- [Linux Privilege Escalation](./cheatsheets/linpriv.md)
-- [Windows Privilege Escalation](./cheatsheets/winpriv.md)
+- [`web-security/`](./web-security/#index) — SQLi, XSS, SSRF, IDOR, file upload, and more
+- [`active-directory/`](./active-directory/#index) — enumeration, Kerberoasting, ACL abuse, lateral movement
+- [`cheatsheets/`](./cheatsheets/#index) — Linux/Windows privesc, netcat, tmux, SSH tunneling
+- [`tools/`](./tools/#index) — Burp Suite, Nmap, BloodHound, Impacket, Metasploit
 
-> ⚠️ Some files above are **work in progress** — I add a new note after every machine
-> I solve. Watch the repo to follow along.
+> ⚠️ I add a new note after every machine I solve — watch the repo to follow along.
 
 ---
 
@@ -113,21 +102,6 @@ If you spot something wrong, outdated, or unclear:
 -  **Want to add your own writeup?** → open a PR with the file in `writeups/`
 
 PRs of any size welcome.
-
----
-
-##  Stats
-
-This repo grows with every machine I solve. Below is a rough running count of notes added
-per category — updated as I publish.
-
-```
-web-security/      ████████████░░░░░░░░  pending notes
-active-directory/  ██████████░░░░░░░░░░  pending notes
-tools/             ████████░░░░░░░░░░░░  pending notes
-writeups/          ██████░░░░░░░░░░░░░░  pending notes
-cheatsheets/       ████░░░░░░░░░░░░░░░░  pending notes
-```
 
 ---
 
